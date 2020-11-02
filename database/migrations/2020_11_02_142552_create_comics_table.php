@@ -22,7 +22,7 @@ class CreateComicsTable extends Migration
             $table->year('year');
             $table->smallInteger('number');
             $table->smallInteger('pages')->nullable();
-            $table->boolean('lecture', 3);
+            $table->string('lecture', 3);
             $table->boolean('coloured')->default(true);
             $table->string('barcode', 14);
             $table->float('price', 6, 2);
