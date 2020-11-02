@@ -18,7 +18,7 @@ class CreateComicsTable extends Migration
             $table->string('title', 30);
             $table->string('author', 50);
             $table->string('editor', 50);
-            $table->string('edition', 30);
+            $table->string('edition', 100);
             $table->year('year');
             $table->smallInteger('number');
             $table->smallInteger('pages')->nullable();
