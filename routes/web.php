@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('comics', 'ComicController');
+//definisco una speciale rotta che richiama il metodo che resituirà la view per la chiamata ajax
+Route::get('comics-ajax', 'ComicController@indexAjax');

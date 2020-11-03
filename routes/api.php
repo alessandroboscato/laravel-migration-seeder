@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+//In API.PHP solo rotte che se richiamate in GET rispondono in formato json
 Route::get("comics", "Api\ComicController@getAll");
 Route::get("comics/{id}", "Api\ComicController@getById");

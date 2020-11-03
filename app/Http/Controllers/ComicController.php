@@ -83,4 +83,8 @@ class ComicController extends Controller
     {
         //
     }
+
+    public function indexAjax() {
+      return view("index-ajax");
+    }
 }
